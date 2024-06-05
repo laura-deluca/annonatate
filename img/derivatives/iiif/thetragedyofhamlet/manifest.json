@@ -1,12 +1,9 @@
 ---
-added: 2024-06-05 21&#58;56&#58;39.376137
-thumbnail: https://laura-deluca.github.io/annonatate/img/derivatives/iiif/thetragedyofhamlet/146871/full/129,/0/default.jpg
-title: The Tragedy of Hamlet
-user: laura-deluca
+layout: none
 ---
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://laura-deluca.github.io/annonatate/img/derivatives/iiif/thetragedyofhamlet/manifest.json",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/thetragedyofhamlet/manifest.json",
   "@type": "sc:Manifest",
   "label": "The Tragedy of Hamlet",
   "description": "Hamlet from Shakespeare&apos;s Fourth Folio",
@@ -16,30 +13,37 @@ user: laura-deluca
       "@type": "sc:Sequence",
       "canvases": [
         {
-          "@id": "https://laura-deluca.github.io/annonatate/canvas/img/derivatives/iiif/thetragedyofhamlet/146871.json",
+          "@id": "{{ '/' | absolute_url }}canvas/img/derivatives/iiif/thetragedyofhamlet/146871.json",
           "@type": "sc:Canvas",
           "label": "146871",
-          "thumbnail": "https://laura-deluca.github.io/annonatate/img/derivatives/iiif/thetragedyofhamlet/146871/full/129,/0/default.jpg",
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/thetragedyofhamlet/146871/full/129,/0/default.jpg",
           "height": 1536,
           "width": 1030,
           "images": [
             {
-              "@id": "https://laura-deluca.github.io/annonatate/img/derivatives/iiif/thetragedyofhamlet/146871/annotation/1.json",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/thetragedyofhamlet/146871/annotation/1.json",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "https://laura-deluca.github.io/annonatate/img/derivatives/iiif/thetragedyofhamlet/146871/full/full/0/default.jpg",
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/thetragedyofhamlet/146871/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 1536,
                 "width": 1030,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://laura-deluca.github.io/annonatate/img/derivatives/iiif/thetragedyofhamlet/146871",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/thetragedyofhamlet/146871",
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://laura-deluca.github.io/annonatate/canvas/img/derivatives/iiif/thetragedyofhamlet/146871.json"
+              "on": "{{ '/' | absolute_url }}canvas/img/derivatives/iiif/thetragedyofhamlet/146871.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "{{ '/' | absolute_url }}annotations/146871-list.json",
+              "@type": "sc:AnnotationList",
+              "label": ""
             }
           ]
         }
