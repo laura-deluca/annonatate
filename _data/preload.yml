@@ -1,3 +1,9 @@
-images: []
+images:
+- added: '2024-06-05 16:58:38.641106'
+  iiif: true
+  thumbnail: https://laura-deluca.github.io/dhsi-2024-inclass/images/Image1/full/120,/0/default.jpg
+  title: '[Click to edit label]'
+  url: https://laura-deluca.github.io/dhsi-2024-inclass/manifests/TheNature.manifest.json
+  user: laura-deluca
 settings: {}
 version: '2.1'
