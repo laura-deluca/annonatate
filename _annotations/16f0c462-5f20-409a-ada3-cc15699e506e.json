@@ -1,0 +1,38 @@
+---
+canvas: "https://laura-deluca.github.io/annonatate/canvas/img/derivatives/iiif/thetragedyofhamlet/146871.json"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "An infamous printing error in Shakespeare's Fourth Folio",
+            "purpose": "commenting",
+            "creator": {
+                "id": "laura-deluca",
+                "name": "laura-deluca"
+            },
+            "created": "2024-06-05T21:59:18.909Z",
+            "modified": "2024-06-05T22:00:06.179Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://laura-deluca.github.io/annonatate/img/derivatives/iiif/thetragedyofhamlet/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://laura-deluca.github.io/annonatate/canvas/img/derivatives/iiif/thetragedyofhamlet/146871.json",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=101.5360336303711,498.1316833496094,231.78998565673828,48.554840087890625"
+        }
+    },
+    "id": "16f0c462-5f20-409a-ada3-cc15699e506e.json",
+    "motivation": "commenting"
+}
