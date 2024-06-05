@@ -1,0 +1,38 @@
+---
+canvas: "http://67181ec2-15b8-4300-85af-50dcad9b1b17"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Manningham 1692",
+            "purpose": "commenting",
+            "creator": {
+                "id": "laura-deluca",
+                "name": "laura-deluca"
+            },
+            "created": "2024-06-05T16:58:47.484Z",
+            "modified": "2024-06-05T16:58:51.807Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://laura-deluca.github.io/dhsi-2024-inclass/manifests/TheNature.manifest.json",
+                "type": "Manifest"
+            },
+            "id": "http://67181ec2-15b8-4300-85af-50dcad9b1b17",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=180.66397094726562,83.51293182373047,739.0649108886719,83.45169830322266"
+        }
+    },
+    "id": "9809850f-e9bc-4212-9e2a-c830a0303c38.json",
+    "motivation": "commenting"
+}
